@@ -1,0 +1,9 @@
+Joint Strength: Robot has more than enough strength to remain standing on all four legs. Testing is required to ensure that walking and/or carrying extra weight will not overpower the robot.
+
+Structural Strength: The PLA skeleton has no current issues supporting the robot's weight. The robot's joints break easily and are flimsy as can be observed at the end of "Motion Smoothing Demo.mp4" where one of the legs falls of. This should be corrected in version two by using screws rather than glue and tape to keep the motors properly attached to the PLA skeleton.
+
+Software: The motion smoothing script works satisfactorally and the standing script is stable enough. The motion smoothing demo video displayed minor jittering of the servos. This is most likely due to a combination of undervoltage (3.7V is supplied, 5V is recommended) and many signals being sent (this increases the odds that an inaccurate PWM pulse will be sent which would lead to a jitter). This could be remedied by using higher voltage batteries and dedicated servo drivers.
+
+Generally, improper manufacturing methods lead to a weak structure and inappropriate hardware lead to actuator innacuracy. The weak structure was catastrophic and therefore must be remedied for version 2.
+
+Furthermore, a physics simulation should be used to aid in the design of version two so that designing more advanced animations for walking and turning won't require repeated testing on a physical model.
