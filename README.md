@@ -1,4 +1,4 @@
-This is a quadrupedal robot, it has radial symmetry and is moved using exclusively SG90 servo motors.
+This is a quadrupedal robot, it has radial symmetry and is actuated using exclusively SG90 servo motors.
 Screenshot in freecad of the robot
 
 <picture>
