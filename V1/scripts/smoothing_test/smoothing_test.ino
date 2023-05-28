@@ -1,3 +1,8 @@
+/*
+This script is a demonstration of servo motion smoothing, the servos decelerate as they approach their target angle.
+Motion smoothing increases the robot's stability, making it extremely useful in designing walking animations.
+*/
+
 #include <Servo.h>
 
 unsigned long startTime = 0;
